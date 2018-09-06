@@ -10,4 +10,11 @@ dependencies:
     name: "github.com/JackTiger/testB"
     commit: "969a1bd4e610d3c26b45500f952347f9b6218ab7"
     transitive: false
+  - name: "github.com/JackTiger/testD"
+    host:
+      name: "github.com/JackTiger/testB"
+      commit: "969a1bd4e610d3c26b45500f952347f9b6218ab7"
+      url: "git@github.com:JackTiger/testB.git"
+      vcs: "git"
+    vendorPath: "vendor/github.com/JackTiger/testD"
   test: []
